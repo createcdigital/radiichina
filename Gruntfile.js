@@ -209,7 +209,8 @@ module.exports = function (grunt) {
       options: {
         dest: '<%= config.dist %>'
       },
-      html: '<%= config.app %>/index.html'
+      html: ['<%= config.app %>/index.html'
+             ]
     },
 
     // Performs rewrites based on rev and the useminPrepare configuration
@@ -235,9 +236,9 @@ module.exports = function (grunt) {
           dest: '<%= config.dist %>/images'
         },{
           expand: true,
-          cwd: '<%= config.app %%>',
+          cwd: '<%= config.app %>',
           src: '*.{ico,png}',
-          dest: '<%= config.dist %%>'
+          dest: '<%= config.dist %>'
         }]
       }
     },
