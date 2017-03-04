@@ -9,5 +9,6 @@
     	mysqli_query($conn,"SET NAMES 'utf8'");
 
 
-    date_default_timezone_set("Asia/Shanghai");
+    //date_default_timezone_set("Asia/Shanghai");
+    date_default_timezone_set('America/Los_Angeles');
 ?>
