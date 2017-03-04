@@ -318,6 +318,7 @@ module.exports = function (grunt) {
             '{,*/}*.html',
             'fonts/{,*/}*.*',
             'db/{,*/}*.*'
+            //'medias/{,*/}*.*',
           ]
         }]
       },
