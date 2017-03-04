@@ -23,31 +23,41 @@ body{width:100%;height:100%;background:#fafafa;font-family:"Montserrat-UltraLigh
 
 .wrap .subscribe{float: left; margin-top: 55px; width: 350px; overflow: hidden; text-align: left;}
 .wrap .subscribe .t{text-transform: uppercase; font-size:18px;color:#727273; margin-left: 12px; word-spacing: 2px;}
-.wrap .subscribe input{width: 345px; height: 25px; font-size: 14px; color:#747373; margin-top: 25px; border-radius: 14px; border:2px solid #e1e1e1; text-indent:12px; background-color: transparent;}
-.wrap .subscribe button{color: #e9d2d4; font-size: 14px; width: 80px; height: 25px; background: #A71B2D; border-radius: 12px;  margin-top: 14px; border:0px; margin-left: 2px; word-spacing: 5px;}
+.wrap .subscribe input{width: 345px; height: 25px; font-size: 14px; color:#232323; margin-top: 25px; border-radius: 14px; border:2px solid #e1e1e1; text-indent:12px; background-color: transparent;}
+input[placeholder], [placeholder], *[placeholder] {font-family: 'Montserrat-UltraLight'; color:#232323 !important;}
+.inp[placeholder]{ color:red !important;}
+.wrap .subscribe button{color: #e9d2d4; font-size: 14px; width: 80px; height: 25px; background: #A71B2D; border-radius: 12px;  margin-top: 14px; border:0px; margin-left: 2px; word-spacing: 5px;font-family: 'Montserrat-UltraLight'; }
 
 .wrap .coming-soon{float: right; margin-top: 55px;width: 160px; overflow: hidden; text-align: right;}
 .wrap .coming-soon .t{text-transform: uppercase; font-size:18px;color:#727273; margin-right: 13px;}
 .wrap .coming-soon .line{ background: #A71B2D; width: 55px; height: 2px; margin-top: 25px; margin-left: 90px;}
+
+.model{ display:none;position: relative;top: -125px;left: 130px;width:200px;height:50px;background-color:#e9e9e9;text-align:center;line-height:50px;border-radius:10px;opacity:.9;word-spacing:4px;letter-spacing:2px;}
+.close{position:relative;top:-63px;left:85px;color:#fff;}
 }
 
 
 @media screen and (max-width: 768px) {
 .container{width:100%;height:100%;background:radial-gradient(ellipse,#fff 60%,#c0c0c0);}
-.wrap{width:90%;height:auto;margin:0px auto;text-align:center; padding:10% 0px;}
-.wrap .logo{ width:45px; height:50px; margin:0px auto; background: url("../images/logo-m.png") no-repeat; background-position: center; background-size: 45px 50px;}
-.wrap .title{font-size:10px;color:#232323;letter-spacing:5px; text-transform:uppercase; margin: 22px auto 11px auto;}
+.wrap{width:94%;height:183px;margin:0px auto;text-align:center; padding:20px 0px;}
+.wrap .logo{ width:50px; height: 60px; margin:0px auto; background: url("../images/logo-m.png") no-repeat; background-position: center; background-size: 50px 60px;}
+.wrap .title{font-size:14px;color:#232323;letter-spacing:5px; text-transform:uppercase; margin: 22px auto 11px auto;}
 .wrap .title span{color: #a71b2d;}
 
-.wrap .video-wrap{width:100%;height:155px;background:#000;border-radius:5px; box-shadow:0px 20px 50px #bbb;}
+.wrap .video-wrap{width:100%;height:190px;background:#000;border-radius:3px; box-shadow:0px 20px 50px #bbb;}
 .wrap .play-icon{display:none; width:0;height:0;border-style:solid;border-width:7.5px 0 7.5px 13px;border-color:transparent transparent transparent #c9c9c9; position: relative; top:-83px; left: 132px;}
 
 .wrap .subscribe{margin-top: 32px; width:100%; overflow: hidden; text-align: center;}
-.wrap .subscribe .t{text-transform: uppercase; font-size:11px;color:#727273; word-spacing: 1px;}
-.wrap .subscribe input{width: 98%; height: 20px; font-size: 10px; color:#747373; margin-top: 12px; border-radius: 10px; border:2px solid #e1e1e1; text-align: center; background-color: transparent; outline:none; -webkit-appearance: none;}
-.wrap .subscribe button{color: #e9d2d4; font-size: 10px; width: 63px; height: 20px; background: #A71B2D; border-radius: 7px;  margin-top: 10px; border:0px;word-spacing: 1px;}
+.wrap .subscribe .t{text-transform: uppercase; font-size:14px;color:#727273; word-spacing: 1px;}
+.wrap .subscribe input{width: 98%; height: 23px; font-size: 14px; margin-top: 12px; border-radius: 15px; border:1px solid #e1e1e1; text-align: center; background-color: transparent; outline:none; -webkit-appearance: none;}
+input[placeholder], [placeholder], *[placeholder] {font-family: 'Montserrat-UltraLight'; color:#000 !important;}
+.inp[placeholder]{ color:red !important;}
+.wrap .subscribe button{color: #fff2f6; font-size: 13px; width: 75px; height: 23px; background: #A71B2D; border-radius: 10px;  margin-top: 10px; border:0px;word-spacing: 3px; font-family: 'Montserrat-UltraLight'; }
 
 .wrap .coming-soon{ margin-top: 30px; width:100%; overflow: hidden; text-align: center;}
-.wrap .coming-soon .t{text-transform: uppercase; font-size:10px;color:#727273; }
-.wrap .coming-soon .line{ background: #A71B2D; width: 32px; height: 2px; margin: 13px auto;}
+.wrap .coming-soon .t{text-transform: uppercase; font-size:11px;color:#727273; }
+.wrap .coming-soon .line{ background: #A71B2D; width: 55px; height: 2px; margin: 10px auto;}
+
+.model{ display:none;margin: 150px auto;width:200px;height:50px;background-color:#e9e9e9;text-align:center;line-height:50px;border-radius:10px;opacity:.9;word-spacing:4px;letter-spacing:2px;}
+.close{position:relative;top:-63px;left:85px;color:#fff;}
 }
