@@ -21,7 +21,8 @@ module.exports = function (grunt) {
   // Configurable paths
   var config = {
     app: 'app',
-    dist: 'dist'
+    dist: 'dist',
+    upgrate: 'upgrade'
   };
 
   // Define the configuration for all the tasks
@@ -326,6 +327,15 @@ module.exports = function (grunt) {
         cwd: '<%= config.app %>/styles',
         dest: '.tmp/styles/',
         src: '{,*/}*.css'
+      },
+      upgrade: {
+         expand: true,
+          dot: true,
+          cwd: '<%= config.upgrate %>',
+          dest: '<%= config.dist %>',
+          src: [
+            '{,*/}*.html'
+          ]
       }
     },
 
@@ -387,6 +397,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('build', [
     'clean:dist',
+    'copy:upgrade',
     'wiredep',
     'useminPrepare',
     'concurrent:dist',
