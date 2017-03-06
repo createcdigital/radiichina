@@ -66,7 +66,10 @@ var App = function(){
 
 		setMediaSource: function(){
 			if(!this.isMobile())
+			{
 				$("#vid").attr("src", "medias/1080.mp4");
+				$("#vid").attr("controls", "controls");
+			}
 		},
 	};
 }();
