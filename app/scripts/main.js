@@ -16,7 +16,15 @@ var App = function(){
 				$(".play-icon").hide();
 			});
 
+			$("#vid")[0].onplay = function(){
+				$(".play-icon").hide();
+			};
+
 			$("#vid")[0].onended = function(){
+				$(".play-icon").show();
+			};
+
+			$("#vid")[0].onpause = function(){
 				$(".play-icon").show();
 			};
 		},
