@@ -317,8 +317,8 @@ module.exports = function (grunt) {
             'images/{,*/}*.webp',
             '{,*/}*.html',
             'fonts/{,*/}*.*',
-            'db/{,*/}*.*'
-            //'medias/{,*/}*.*',
+            'db/{,*/}*.*',
+            'medias/{,*/}*.*',
           ]
         }]
       },
