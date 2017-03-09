@@ -30,11 +30,12 @@ input[placeholder], [placeholder], *[placeholder] {font-family: 'Montserrat-Ultr
 .inp[placeholder]{ color:red !important;}
 .wrap .subscribe button{color: #e9d2d4; font-size: 14px; width: 80px; height: 25px; background: #A71B2D; border-radius: 12px;  margin-top: 14px; border:0px; margin-left: 2px; word-spacing: 5px;font-family: 'Montserrat-UltraLight'; }
 
-.wrap .informatioin{float: right; margin-top: 55px;width: 300px; overflow: hidden; text-align: right;}
+.wrap .informatioin{float: right; margin-top: 55px;width: 350px; overflow: hidden; text-align: right;}
 .wrap .informatioin .coming-soon{text-transform: uppercase; font-size:18px;color:#727273; margin-right: 13px;}
-.wrap .informatioin .line{ background: #A71B2D; width: 55px; height: 2px; margin-top: 25px; margin-left: 230px;}
+.wrap .informatioin .line{ background: #A71B2D; width: 55px; height: 2px; margin-top: 25px; margin-left: 280px;}
 
-.wrap .informatioin .contact{ margin-right: 13px; margin-top: 48px; font-family: 'Montserrat-UltraLight'; font-size:18px;color:#727273; text-transform: uppercase;}
+.wrap .informatioin .contact{ margin-right: 13px; margin-top: 25px; font-family: 'Montserrat-UltraLight'; font-size:18px;color:#727273; }
+.wrap .informatioin .contact .t{text-transform: uppercase;}
 .wrap .informatioin .contact a, a:hover, a:focus, a:active{color: #1b95e0;text-decoration: none;}
 
 .model{ display:none;position: relative;top: -125px;left: 130px;width:200px;height:50px;background-color:#e9e9e9;text-align:center;line-height:50px;border-radius:10px;opacity:.9;word-spacing:4px;letter-spacing:2px;}
@@ -63,8 +64,9 @@ input[placeholder], [placeholder], *[placeholder] {font-family: 'Montserrat-Ultr
 .wrap .informatioin .coming-soon{text-transform: uppercase; font-size:11px;color:#727273; }
 .wrap .informatioin .line{ background: #A71B2D; width: 55px; height: 2px; margin: 10px auto;}
 
-.wrap .informatioin .contact{ margin-right: 13px; margin-top: 30px; font-family: 'Montserrat-UltraLight'; font-size:11px;color:#727273; text-transform: uppercase; }
-.wrap .informatioin .contact a, a:hover, a:focus, a:active{color: #1b95e0;text-decoration: none; }
+.wrap .informatioin .contact{ margin-right: 13px; margin-top: 30px; font-family: 'Montserrat-UltraLight'; font-size:11px;color:#727273; }
+.wrap .informatioin .contact .t{text-transform: uppercase; }
+.wrap .informatioin .contact a, a:hover, a:focus, a:active{color: #1b95e0;text-decoration: none; font-size:11px; }
 
 .model{ display:none;margin: 150px auto;width:200px;height:50px;background-color:#e9e9e9;text-align:center;line-height:50px;border-radius:10px;opacity:.9;word-spacing:4px;letter-spacing:2px;}
 .close{position:relative;top:-63px;left:85px;color:#fff;}
