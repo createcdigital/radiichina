@@ -10,6 +10,8 @@
 *{margin:0;padding:0;}
 html{width:100%;height:100%}
 body{width:100%;height:100%;background:#fafafa;font-family:"Montserrat-UltraLight";color:#333}
+input:focus{outline:none}
+input,button,select,textarea,a, video{ outline:none;}
 
 @media screen and (min-width: 768px) {
 .container{width:100%;height:auto;background:radial-gradient(ellipse,#fff 60%,#c0c0c0);}
@@ -21,16 +23,19 @@ body{width:100%;height:100%;background:#fafafa;font-family:"Montserrat-UltraLigh
 .wrap .video-wrap{width:980px;height:550px;background:#000;border-radius:10px; box-shadow:0px 30px 80px #bbb;}
 .wrap .play-icon{width:0;height:0;border-style:solid;border-width:27.5px 0 27.5px 47px;border-color:transparent transparent transparent #c9c9c9; position: relative; top:-290px; left: 460px;}
 
-.wrap .subscribe{float: left; margin-top: 55px; width: 350px; overflow: hidden; text-align: left;}
+.wrap .subscribe{float: left; margin-top: 55px; width: 350px; overflow: hidden; text-align: left; padding-bottom: 5px;}
 .wrap .subscribe .t{text-transform: uppercase; font-size:18px;color:#727273; margin-left: 12px; word-spacing: 2px;}
 .wrap .subscribe input{width: 345px; height: 25px; font-size: 14px; color:#232323; margin-top: 25px; border-radius: 14px; border:2px solid #e1e1e1; text-indent:12px; background-color: transparent;}
 input[placeholder], [placeholder], *[placeholder] {font-family: 'Montserrat-UltraLight'; color:#232323 !important;}
 .inp[placeholder]{ color:red !important;}
 .wrap .subscribe button{color: #e9d2d4; font-size: 14px; width: 80px; height: 25px; background: #A71B2D; border-radius: 12px;  margin-top: 14px; border:0px; margin-left: 2px; word-spacing: 5px;font-family: 'Montserrat-UltraLight'; }
 
-.wrap .coming-soon{float: right; margin-top: 55px;width: 160px; overflow: hidden; text-align: right;}
-.wrap .coming-soon .t{text-transform: uppercase; font-size:18px;color:#727273; margin-right: 13px;}
-.wrap .coming-soon .line{ background: #A71B2D; width: 55px; height: 2px; margin-top: 25px; margin-left: 90px;}
+.wrap .informatioin{float: right; margin-top: 55px;width: 300px; overflow: hidden; text-align: right;}
+.wrap .informatioin .coming-soon{text-transform: uppercase; font-size:18px;color:#727273; margin-right: 13px;}
+.wrap .informatioin .line{ background: #A71B2D; width: 55px; height: 2px; margin-top: 25px; margin-left: 230px;}
+
+.wrap .informatioin .contact{ margin-right: 13px; margin-top: 48px; font-family: 'Montserrat-UltraLight'; font-size:18px;color:#727273; text-transform: uppercase;}
+.wrap .informatioin .contact a, a:hover, a:focus, a:active{color: #1b95e0;text-decoration: none;}
 
 .model{ display:none;position: relative;top: -125px;left: 130px;width:200px;height:50px;background-color:#e9e9e9;text-align:center;line-height:50px;border-radius:10px;opacity:.9;word-spacing:4px;letter-spacing:2px;}
 .close{position:relative;top:-63px;left:85px;color:#fff;}
@@ -54,9 +59,12 @@ input[placeholder], [placeholder], *[placeholder] {font-family: 'Montserrat-Ultr
 .inp[placeholder]{ color:red !important;}
 .wrap .subscribe button{color: #fff2f6; font-size: 13px; width: 75px; height: 23px; background: #A71B2D; border-radius: 10px;  margin-top: 10px; border:0px;word-spacing: 3px; font-family: 'Montserrat-UltraLight'; }
 
-.wrap .coming-soon{ margin-top: 30px; width:100%; overflow: hidden; text-align: center;}
-.wrap .coming-soon .t{text-transform: uppercase; font-size:11px;color:#727273; }
-.wrap .coming-soon .line{ background: #A71B2D; width: 55px; height: 2px; margin: 10px auto;}
+.wrap .informatioin{ margin-top: 30px; width:100%; overflow: hidden; text-align: center;}
+.wrap .informatioin .coming-soon{text-transform: uppercase; font-size:11px;color:#727273; }
+.wrap .informatioin .line{ background: #A71B2D; width: 55px; height: 2px; margin: 10px auto;}
+
+.wrap .informatioin .contact{ margin-right: 13px; margin-top: 30px; font-family: 'Montserrat-UltraLight'; font-size:11px;color:#727273; text-transform: uppercase; }
+.wrap .informatioin .contact a, a:hover, a:focus, a:active{color: #1b95e0;text-decoration: none; }
 
 .model{ display:none;margin: 150px auto;width:200px;height:50px;background-color:#e9e9e9;text-align:center;line-height:50px;border-radius:10px;opacity:.9;word-spacing:4px;letter-spacing:2px;}
 .close{position:relative;top:-63px;left:85px;color:#fff;}
